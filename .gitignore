@@ -1,0 +1,46 @@
+# Archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# Archivos binarios y ejecutables
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+main
+
+# Carpetas generadas por Go
+bin/
+pkg/
+vendor/
+
+# Módulos de Go
+go.sum
+go.mod
+
+# Configuración del editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Archivos de depuración
+*.test
+*.prof
+*.cover
+*.trace
+
+# Docker
+docker-compose.override.yml
+*.env
+
+# Cache y temporal
+.cache/
+tmp/
+*.tmp
